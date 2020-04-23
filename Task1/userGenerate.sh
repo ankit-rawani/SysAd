@@ -11,12 +11,12 @@ umask 007
 #adding users
 
 #chiefcommander in every group
-useradd -p chiefcommander -d chiefcommander -G army,navy,airforce ChiefCommander
+useradd -p chiefcommander -d ChiefCommander -G army,navy,airforce ChiefCommander
 
 #troop chiefs in respective groups
-useradd -p armygeneral -d armygeneral -g army ArmyGeneral
-useradd -p navymarshal -d navymarshal -g navy NavyMarshal
-useradd -p airforcechief -d airforcechief -g airforce AirForceChief
+useradd -p armygeneral -d ArmyGeneral -g army ArmyGeneral
+useradd -p navymarshal -d NavyMarshal -g navy NavyMarshal
+useradd -p airforcechief -d AirForceChief -g airforce AirForceChief
 
 #adding the soldiers
 for n in {1..50}

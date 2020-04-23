@@ -14,6 +14,6 @@ echo "alias userGenerate=$ugen" >> ~/.bashrc
 echo "alias permit=$per" >> ~/.bashrc
 echo "alias autoSchedule=$as" >> ~/.bashrc
 echo "alias attendance=$att" >> ~/.bashrc
-echo "alias record=$rec" >> ~/.bashrc
+echo "alias record=$rec $1" >> ~/.bashrc
 echo "alias finalattendance=$fa" >> ~/.bashrc
 echo "alias nearest=$near" >> ~/.bashrc

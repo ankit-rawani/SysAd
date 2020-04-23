@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #changing the home directory permissions
-chmod 700 /home/chiefcommander
+chmod 700 /home/ChiefCommander
 
 #changing soldiers' home directory group to respective troop groups
 for n in {1..50}
