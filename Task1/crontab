@@ -31,3 +31,6 @@ SHELL=/bin/bash
 
 #updating the attendance_report.txt in the home directory of ChiefCommander 1 min after updating it to troop chiefs
 1 6 * * * finalattendance
+
+#updating nearest10 file
+2 6 * * * nearest
