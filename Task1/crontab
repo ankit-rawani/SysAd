@@ -23,6 +23,11 @@ SHELL=/bin/bash
 #
 # m h  dom mon dow   command
 
+#alloting positions to the soldiers daily at 00:00
 @daily autoSchedule
 
+#updating attendance_record.txt in home directory of each troop's chief at 06:00 am
 0 6 * * * attendance
+
+#updating the attendance_report.txt in the home directory of ChiefCommander 1 min after updating it to troop chiefs
+1 6 * * * finalattendance
